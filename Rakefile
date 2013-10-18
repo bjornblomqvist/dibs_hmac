@@ -16,11 +16,11 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "dibs_hmac"
   gem.homepage = "http://github.com/bjornblomqvist/dibs_hmac"
-  gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "darwin.git@marianna.se"
-  gem.authors = ["Darwin"]
+  gem.license = "LGPL"
+  gem.summary = %Q{An implementation of DIBS Message authentication code.}
+  gem.description = %Q{An implementation of DIBS Message authentication code. Has correct sorting and rules for which params to include. So far it only includes the params for DIBS Payment Window.}
+  gem.email = "bjorn@bjornblomqvist.se"
+  gem.authors = ["Björn Blomqvist"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

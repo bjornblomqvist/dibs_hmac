@@ -1,6 +1,13 @@
 = dibs_hmac
 
-Description goes here.
+An implementation of DIBS Message authentication code.
+
+Has correct sorting and rules for which params to include. So far it only includes the params for DIBS Payment Window.
+
+http://tech.dibs.dk/integration_methods/dibs_payment_window/parameters/
+http://tech.dibs.dk/integration_methods/dibs_payment_window/return_pages/
+
+Production ready. I am curently using it for a Webshop.
 
 == Contributing to dibs_hmac
  
@@ -10,7 +17,6 @@ Description goes here.
 * Start a feature/bugfix branch.
 * Commit and push until you are happy with your contribution.
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
 == Copyright
 

@@ -11,7 +11,9 @@ If you find this useful please tell me in an email.
 
 ### Calculate mac
 
-    mac = DIBS::HMAC.calculate(data, Rails.application.config.dibs_hmac_key)
+    dibs_params = {:amount => "100", :merchant => "2222", ....}
+    
+    mac = DIBS::HMAC.calculate(dibs_params, Rails.application.config.dibs_hmac_key)
 
 ### Validate response from DIBS
 

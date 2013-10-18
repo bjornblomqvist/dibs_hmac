@@ -9,6 +9,8 @@ http://tech.dibs.dk/integration_methods/dibs_payment_window/return_pages/
 
 Production ready. I am curently using it for a Webshop.
 
+If you find this useful please tell me in an email.
+
 == Contributing to dibs_hmac
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
@@ -20,6 +22,6 @@ Production ready. I am curently using it for a Webshop.
 
 == Copyright
 
-Copyright (c) 2013 Darwin. See LICENSE.txt for
+Copyright (c) 2013 Björn Blomqvist. See LICENSE.txt for
 further details.
 

@@ -23,7 +23,7 @@ module DIBS
       billingPostalPlace
       billingEmail
       billingMobile
-      cancelreturnurl
+      cancelReturnUrl
       callbackUrl
       language
       addFee

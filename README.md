@@ -38,6 +38,6 @@ raise "INVALID REQUEST" unless DIBS::HMAC.valid?(params, Rails.application.confi
 
 ## Copyright
 
-Copyright (c) 2013 Björn Blomqvist. See LICENSE.txt for
+Copyright (c) 2013 - 2015 Björn Blomqvist and others. See LICENSE.txt for
 further details.
 

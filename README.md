@@ -17,14 +17,15 @@ If you find this useful please tell me in an email.
 
 ### Calculate mac
 
-    dibs_params = {:amount => "100", :merchant => "2222", ....}
-    
-    mac = DIBS::HMAC.calculate(dibs_params, Rails.application.config.dibs_hmac_key)
+```ruby
+dibs_params = {:amount => "100", :merchant => "2222", ....}
 
+mac = DIBS::HMAC.calculate(dibs_params, Rails.application.config.dibs_hmac_key)
+```
 ### Validate response from DIBS
-
-    raise "INVALID REQUEST" unless DIBS::HMAC.valid?(params, Rails.application.config.dibs_hmac_key)
-    
+```ruby
+raise "INVALID REQUEST" unless DIBS::HMAC.valid?(params, Rails.application.config.dibs_hmac_key)
+``` 
 
 ## Contributing to dibs_hmac
  

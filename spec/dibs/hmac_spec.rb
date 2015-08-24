@@ -45,14 +45,14 @@ describe DIBS::HMAC do
     it 'should be true' do
       
       mac = "9c4d30a74ade9f93dfeca46edbdac110c8ec9b250185aab25a4555b3575d3ddc"
-      subject.valid?({:amount => "100", :merchant => "2222", :MAC => mac}, hmac_key).should be_true
+      subject.valid?({:amount => "100", :merchant => "2222", :MAC => mac}, hmac_key).should be_truthy
       
     end
     
     it 'should be false' do
       
       mac = "9c4d30a74ade9f93dfeca46edbdac110c8ec9b250185aab25a4555b3575d3ddc"
-      subject.valid?({:amount => "100", :MAC => mac}, hmac_key).should be_false
+      subject.valid?({:amount => "100", :MAC => mac}, hmac_key).should be_falsey
       
     end
     

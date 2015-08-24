@@ -1,4 +1,4 @@
-require 'digest/hmac'
+require 'openssl'
 
 module DIBS
   class HMAC
@@ -81,7 +81,7 @@ module DIBS
         end
       end
     
-      OpenSSL::HMAC.hexdigest(OpenSSL::Digest::Digest.new('sha256'),Array(key).pack('H*'), param_string)
+      OpenSSL::HMAC.hexdigest(OpenSSL::Digest.new('sha256'),Array(key).pack('H*'), param_string)
     end
   
     def self.valid?(params, key)

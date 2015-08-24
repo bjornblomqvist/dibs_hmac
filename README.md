@@ -7,6 +7,12 @@ An implementation of DIBS Message authentication code. Has correct sorting and r
 
 If you find this useful please tell me in an email.
 
+## Short changelog
+
+# 0.1.3 (2015-08-24)
+
+- Remove deprecation warnings and added support for newer ruby versions.
+
 ## Code example
 
 ### Calculate mac

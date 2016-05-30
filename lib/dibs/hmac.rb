@@ -69,6 +69,8 @@ module DIBS
       acquirerDeliveryPostalPlace
       acquirerDeliveryCountryCode
       expandOrderInformation
+      ticketId
+      merchantId
     }.strip.split("\n").map {|name| name.strip }
 
 

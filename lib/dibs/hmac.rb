@@ -68,9 +68,12 @@ module DIBS
       acquirerDeliveryPostalCode
       acquirerDeliveryPostalPlace
       acquirerDeliveryCountryCode
+      expandOrderInformation
+      ticketId
+      merchantId
     }.strip.split("\n").map {|name| name.strip }
-    
-    
+
+
     def self.calculate(params, key)
       param_string = ""
       params.keys.sort.each do |key|

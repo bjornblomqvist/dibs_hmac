@@ -44,6 +44,7 @@ module DIBS
       amount
       currency
       transaction
+      transactionId
       actionCode
       acquirer
       cardNumberMasked
